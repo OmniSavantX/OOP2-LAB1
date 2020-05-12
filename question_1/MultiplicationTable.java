@@ -49,16 +49,14 @@ public class MultiplicationTable {
 
     // Method to print the Multiplication Table
     public String printTable() {
-        System.out.println("=================================================================================================================================\n");
-        System.out.println("=================================================================================================================================\n");
-        System.out.println("=== Printing the Multiplcation Table of " + multiplication_number + " between "
+        System.out.println("================================================================================\n");
+        System.out.println("    Printing the Multiplcation Table of " + multiplication_number + " between "
                 + minimum_range + " and " + maximum_range + "\n");
-        System.out.println("=================================================================================================================================\n");
-        System.out.println("=================================================================================================================================\n");
+        System.out.println("================================================================================\n");
         for (int j = minimum_range; j <= maximum_range; j++) {
             System.out.println(multiplication_number + " X " + j + " = " + multiplication_number * j + "\n");
         }
-        String string = "\n=================================================================================================================================\n";
+        String string = "\n=================================================================================\n";
         return string;
     }
 
