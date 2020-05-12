@@ -14,13 +14,13 @@
 public class Main {
     //Main Method
     public static void main(String[] args) {
-        System.out.println("\n=================================================================================================================================");
-        System.out.println("\n================================================================= Author:           Bill Glinton             ====================\n");
-        System.out.println("================================================================= Admission Number: 097292                   ====================\n");
-        System.out.println("================================================================= Email:            tom.omuom@strathmore.edu ====================\n");
-        System.out.println("=================================================================================================================================\n");
-        System.out.println("=== A Java Program that prints a Multiplication Table of numbers from range to range ============================================\n");
-        System.out.println("=================================================================================================================================\n\n");
+        System.out.println("\n===========================================");
+        System.out.println("\nAuthor:Bill Glinton\n");
+        System.out.println("Admission Number: 097292\n");
+        System.out.println("Email          : tom.omuom@strathmore.edu \n");
+        System.out.println("==========================================================================\n");
+        System.out.println(" Java Multiplication Table\n");
+        System.out.println("==========================================================================\n");
 
         //The MultiplicationTable class is called in Creation of first MultiplicationTable object
         MultiplicationTable FirstMultiplicationNumber = new MultiplicationTable(3, 17, 25);
@@ -40,8 +40,8 @@ public class Main {
         //print the multiplication table of 3 between 17 and 25
         System.out.println(ThirdMultiplicationNumber.printTable());
 
-        System.out.println("================================================= T H E      E N D ==============================================================\n");
-        System.out.println("=================================================================================================================================\n");
+        System.out.println("           T H E      E N D                                                    \n");
+        System.out.println("===============================================================================\n");
         
     }
 }
